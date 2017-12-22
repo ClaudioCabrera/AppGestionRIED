@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.MediaManager</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.MediaManager.CrossMediaManager">
+            <summary>
+            Cross platform MediaManager implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.MediaManager.CrossMediaManager.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+        <member name="T:Plugin.MediaManager.MediaManagerImplementation">
+            <summary>
+                Implementation for Feature
+            </summary>
+        </member>
+        <member name="P:Plugin.MediaManager.VideoPlayerImplementation.IsReadyRendering">
+            <summary>
+            True when RenderSurface has been initialized and ready for rendering
+            </summary>
+        </member>
+    </members>
+</doc>
