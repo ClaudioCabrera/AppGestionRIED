@@ -11,12 +11,7 @@ namespace AppGestionRIED
 {
     public class PLogin : ContentPage
 	{
-        /**
-         * 
-         * ent_clave.Text = "T3rr1bl3";
-         * ent_rut.Text = "12079126";
-         * 
-         * **/
+        
         Entry ent_rut = new Entry();
         Entry ent_clave= new Entry();
         CServiciosRemotos consultaremota = new CServiciosRemotos();
